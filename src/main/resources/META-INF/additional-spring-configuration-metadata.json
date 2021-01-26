@@ -1,0 +1,331 @@
+{
+  "properties": [
+    {
+      "name": "weixin.config.appid",
+      "type": "java.lang.String",
+      "description": "appid.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.security",
+      "type": "java.lang.String",
+      "description": "security.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.no",
+      "type": "java.lang.String",
+      "description": "微信号名称.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.loginUrl",
+      "type": "java.lang.String",
+      "description": "回跳地址.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.signature",
+      "type": "java.lang.String",
+      "description": "微信开发者中心中配置的令牌.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.server",
+      "type": "java.lang.String",
+      "description": "应用地址.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.serverUrl",
+      "type": "java.lang.String",
+      "description": "服务器域名.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.qy",
+      "type": "java.lang.Integer",
+      "description": "是否是微信企业号,0代表不是，1代表是.",
+      "defaultValue": 0
+    },
+    {
+      "name": "weixin.config.aesKey",
+      "type": "java.lang.String",
+      "description": "企业微信的EncodingAESKey.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.url.oauth",
+      "type": "java.lang.String",
+      "description": "微信oauth认证地址.",
+      "defaultValue": "https://open.weixin.qq.com/connect/oauth2/authorize"
+    },
+    {
+      "name": "weixin.url.oauth_pc",
+      "type": "java.lang.String",
+      "description": "pc端 通过扫码登陆.",
+      "defaultValue": "https://open.weixin.qq.com/connect/qrconnect"
+    },{
+      "name": "weixin.url.user_info",
+      "type": "java.lang.String",
+      "description": "获取微信用户信息.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/user/info?access_token="
+    },{
+      "name": "weixin.url.material",
+      "type": "java.lang.String",
+      "description": "微信oauth认证地址.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/material/get_material"
+    },{
+      "name": "weixin.url.jsapi_ticket",
+      "type": "java.lang.String",
+      "description": "请求获取sjapi_ticket地址.",
+      "defaultValue":  "https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token="
+    },{
+      "name": "weixin.url.access_token_url",
+      "type": "java.lang.String",
+      "description": "微信获取accessToken，这个要与oauth中accessToken区分.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/token"
+    },{
+      "name": "weixin.url.pay",
+      "type": "java.lang.String",
+      "description": "发起微信支付请求地址.",
+      "defaultValue": "https://api.mch.weixin.qq.com/pay/unifiedorder"
+    },{
+      "name": "weixin.url.oauth_token",
+      "type": "java.lang.String",
+      "description": "微信获取access_token地址，该地址是为微信oauth认证调用地址.",
+      "defaultValue": "https://api.weixin.qq.com/sns/oauth2/access_token"
+    },{
+      "name": "weixin.url.oauth_user_info",
+      "type": "java.lang.String",
+      "description": "微信oauth获取用户信息地址.",
+      "defaultValue": "https://api.weixin.qq.com/sns/userinfo"
+    },{
+      "name": "weixin.url.menu",
+      "type": "java.lang.String",
+      "description": "微信创建公众号菜单地址.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/menu/create"
+    },{
+      "name": "weixin.url.delete_menu",
+      "type": "java.lang.String",
+      "description": "删除公众号菜单url.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/menu/delete"
+    },{
+      "name": "weixin.url.auto_reply",
+      "type": "java.lang.String",
+      "description": "微信自动回复地址.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/get_current_autoreply_info"
+    },{
+      "name": "weixin.url.template_message",
+      "type": "java.lang.String",
+      "description": "微信模板消息接口.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/message/template/send"
+    },{
+      "name": "weixin.url.create_tags",
+      "type": "java.lang.String",
+      "description": "创建用户标签.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/create"
+    },{
+      "name": "weixin.url.batch_tags",
+      "type": "java.lang.String",
+      "description": "批量为用户打标签.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/members/batchtagging"
+    },{
+      "name": "weixin.url.get_tags",
+      "type": "java.lang.String",
+      "description": "获取用户标签信息.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/get"
+    },{
+      "name": "weixin.url.addconditional_menu",
+      "type": "java.lang.String",
+      "description": "创建个性化菜单.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/menu/addconditional"
+    },{
+      "name": "weixin.url.set_industry",
+      "type": "java.lang.String",
+      "description": "微信设置行业信息.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/template/api_set_industry"
+    },{
+      "name": "weixin.url.delete_tags",
+      "type": "java.lang.String",
+      "description": "微信删除标签.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/delete"
+    },{
+      "name": "weixin.url.update_tags",
+      "type": "java.lang.String",
+      "description": "更新微信标签.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/update"
+    },{
+      "name": "weixin.url.get_media",
+      "type": "java.lang.String",
+      "description": "换取公众号、支付账号、外网服务器地址、域名不需要更换的内容.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/media/get"
+    },{
+      "name": "weixin.url.upload_media",
+      "type": "java.lang.String",
+      "description": "上传临时素材.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/media/upload"
+    },{
+      "name": "weixin.url.add_news",
+      "type": "java.lang.String",
+      "description": "上传永久图文素材.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/material/add_news"
+    },{
+      "name": "weixin.url.media_image",
+      "type": "java.lang.String",
+      "description": "上传图文消息图片.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/media/uploadimg"
+    },{
+      "name": "weixin.url.add_material",
+      "type": "java.lang.String",
+      "description": "新增永久素材.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/template/api_set_industry"
+    },{
+      "name": "weixin.url.del_material",
+      "type": "java.lang.String",
+      "description": "删除永久素材.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/material/del_material"
+    },{
+      "name": "weixin.url.getusersummary",
+      "type": "java.lang.String",
+      "description": "获取用户增减量.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getusersummary"
+    },{
+      "name": "weixin.url.getusercumhlate",
+      "type": "java.lang.String",
+      "description": "获取累计用户数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getusercumulate"
+    },{
+      "name": "weixin.url.getupstreammsg",
+      "type": "java.lang.String",
+      "description": "获取消息发送概况数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsg"
+    },{
+      "name": "weixin.url.getupstreammsghour",
+      "type": "java.lang.String",
+      "description": "获取消息发送 分时数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsghour"
+    },{
+      "name": "weixin.url.getupstreammsgweek",
+      "type": "java.lang.String",
+      "description": "获取消息发送  周数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsgweek"
+    },{
+      "name": "weixin.url.getupstreammsgmonth",
+      "type": "java.lang.String",
+      "description": "获取消息发送 月数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsgmonth"
+    },{
+      "name": "weixin.url.getupstreammsgdist",
+      "type": "java.lang.String",
+      "description": "获取消息发送分布数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsgdist"
+    },{
+      "name": "weixin.url.getupstreammsgdistweek",
+      "type": "java.lang.String",
+      "description": "获取消息发送分布 周数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsgdistweek"
+    },{
+      "name": "weixin.url.getupstreammsgdistmonth",
+      "type": "java.lang.String",
+      "description": "获取消息发送分布 月数据.",
+      "defaultValue": "https://api.weixin.qq.com/datacube/getupstreammsgdistmonth"
+    },{
+      "name": "weixin.url.batchget_material",
+      "type": "java.lang.String",
+      "description": "查询永久素材列表.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/material/batchget_material"
+    },{
+      "name": "weixin.url.media",
+      "type": "java.lang.String",
+      "description": "新增缩略图.",
+      "defaultValue": "http://file.api.weixin.qq.com/cgi-bin/media/upload"
+    },{
+      "name": "weixin.url.send_mass",
+      "type": "java.lang.String",
+      "description": "根据openID群发图文消息.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/message/mass/send"
+    },{
+      "name": "weixin.url.add_template",
+      "type": "java.lang.String",
+      "description": "添加模板.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/template/api_add_template"
+    },{
+      "name": "weixin.url.custom_send",
+      "type": "java.lang.String",
+      "description": "客服发送信息接口.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/message/custom/send"
+    },{
+      "name": "weixin.url.add_blacklist",
+      "type": "java.lang.String",
+      "description": "拉黑用户接口.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/members/batchblacklist"
+    },{
+      "name": "weixin.url.remover_blacklist",
+      "type": "java.lang.String",
+      "description": "移除黑名单接口.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/members/batchunblacklist"
+    },{
+      "name": "weixin.url.get_blacklist",
+      "type": "java.lang.String",
+      "description": "查看黑名单列表.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/tags/members/getblacklist"
+    },{
+      "name": "weixin.url.upload_news",
+      "type": "java.lang.String",
+      "description": "上传微信图文素材.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/media/uploadnews"
+    },{
+      "name": "weixin.url.send_all",
+      "type": "java.lang.String",
+      "description": "群发微信图文消息.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/message/mass/sendall"
+    },{
+      "name": "weixin.url.preview",
+      "type": "java.lang.String",
+      "description": "微信图文预览接口.",
+      "defaultValue": "https://api.weixin.qq.com/cgi-bin/message/mass/preview"
+    },{
+      "name": "weixin.url.qy_oauth_token_url",
+      "type": "java.lang.String",
+      "description": "企业号获取accesstoken.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
+    },{
+      "name": "weixin.url.qy_access_token",
+      "type": "java.lang.String",
+      "description": "edis中存储的微信token信息.",
+      "defaultValue": "qy_access_token"
+    },{
+      "name": "weixin.url.qy_token_expires_in",
+      "type": "java.lang.Integer",
+      "description": "过期时间.",
+      "defaultValue": 6000
+    },{
+      "name": "weixin.url.qy_department_list",
+      "type": "java.lang.String",
+      "description": "获取部门列表信息.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+    },{
+      "name": "weixin.url.qy_user_info",
+      "type": "java.lang.String",
+      "description": "读取成员信息.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+    },{
+      "name": "weixin.url.qy_send_msg",
+      "type": "java.lang.String",
+      "description": "企业成员推送消息.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/message/send"
+    },{
+      "name": "weixin.url.qy_menu_url",
+      "type": "java.lang.String",
+      "description": "企业微信创建菜单.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/menu/create"
+    },{
+      "name": "weixin.url.qy_deletemenu_url",
+      "type": "java.lang.String",
+      "description": "删除企业号菜单url.",
+      "defaultValue": "https://qyapi.weixin.qq.com/cgi-bin/menu/delete"
+    }
+
+  ]
+}
