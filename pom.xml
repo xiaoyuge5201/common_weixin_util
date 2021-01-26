@@ -6,7 +6,7 @@
 
     <groupId>com.github.xiaoyuge5201</groupId>
     <artifactId>common_weixin_util</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>common_weixin_util</name>
     <url>https://github.com/xiaoyuge5201/common_weixin_util</url>
     <properties>
