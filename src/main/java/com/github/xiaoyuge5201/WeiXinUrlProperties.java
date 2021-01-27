@@ -205,14 +205,6 @@ public class WeiXinUrlProperties {
      */
     private String qy_oauth_token_url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken";
     /**
-     * redis中存储的微信token信息
-     */
-    private String qy_access_token = "qy_access_token";
-    /**
-     * 过期时间（设置小一点） 原大小为  6000s
-     */
-    private int qy_token_expires_in = 6000;
-    /**
      * 获取部门列表信息
      */
     private String qy_department_list = "https://qyapi.weixin.qq.com/cgi-bin/department/list";
@@ -610,22 +602,6 @@ public class WeiXinUrlProperties {
 
     public void setQy_oauth_token_url(String qy_oauth_token_url) {
         this.qy_oauth_token_url = qy_oauth_token_url;
-    }
-
-    public String getQy_access_token() {
-        return qy_access_token;
-    }
-
-    public void setQy_access_token(String qy_access_token) {
-        this.qy_access_token = qy_access_token;
-    }
-
-    public int getQy_token_expires_in() {
-        return qy_token_expires_in;
-    }
-
-    public void setQy_token_expires_in(int qy_token_expires_in) {
-        this.qy_token_expires_in = qy_token_expires_in;
     }
 
     public String getQy_department_list() {
