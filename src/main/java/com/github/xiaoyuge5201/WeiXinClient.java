@@ -6,9 +6,25 @@ package com.github.xiaoyuge5201;
  */
 public class WeiXinClient {
 
-    private final WeiXinProperties properties;
+    private WeiXinProperties properties;
 
-    private final WeiXinUrlProperties urlProperties;
+    private WeiXinUrlProperties urlProperties;
+
+    public WeiXinProperties getProperties() {
+        return properties;
+    }
+
+    public void setProperties(WeiXinProperties properties) {
+        this.properties = properties;
+    }
+
+    public WeiXinUrlProperties getUrlProperties() {
+        return urlProperties;
+    }
+
+    public void setUrlProperties(WeiXinUrlProperties urlProperties) {
+        this.urlProperties = urlProperties;
+    }
 
     public WeiXinClient(WeiXinProperties properties, WeiXinUrlProperties urlProperties) {
         this.properties = properties;
