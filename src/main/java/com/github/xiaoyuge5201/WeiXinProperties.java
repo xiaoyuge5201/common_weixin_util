@@ -53,6 +53,26 @@ public class WeiXinProperties {
      */
     private String redis_openid_location = "bo_weixin_openid_location";
 
+    private String qy_agent;
+
+    private String qy_token;
+
+    public String getQy_agent() {
+        return qy_agent;
+    }
+
+    public void setQy_agent(String qy_agent) {
+        this.qy_agent = qy_agent;
+    }
+
+    public String getQy_token() {
+        return qy_token;
+    }
+
+    public void setQy_token(String qy_token) {
+        this.qy_token = qy_token;
+    }
+
     public String getRedis_qy_access_token() {
         return redis_qy_access_token;
     }

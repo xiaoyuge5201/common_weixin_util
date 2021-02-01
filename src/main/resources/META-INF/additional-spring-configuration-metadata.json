@@ -91,6 +91,18 @@
       "defaultValue": "bo_weixin_openid_location"
     },
     {
+      "name": "weixin.config.qy_agent",
+      "type": "java.lang.String",
+      "description": "企业号中agentId.",
+      "defaultValue": ""
+    },
+    {
+      "name": "weixin.config.qy_token",
+      "type": "java.lang.String",
+      "description": "企业号中token.",
+      "defaultValue": ""
+    },
+    {
       "name": "weixin.url.oauth",
       "type": "java.lang.String",
       "description": "微信oauth认证地址.",
