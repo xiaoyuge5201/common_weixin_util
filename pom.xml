@@ -6,7 +6,7 @@
 
     <groupId>com.github.xiaoyuge5201</groupId>
     <artifactId>common_weixin_util</artifactId>
-    <version>1.3.1</version>
+    <version>1.3.2</version>
     <name>common_weixin_util</name>
     <url>https://github.com/xiaoyuge5201/common_weixin_util</url>
     <properties>
@@ -104,13 +104,10 @@
         <developer>
             <name>yugb666</name>
             <email>yugb666@foxmail.com</email>
-            <organization>xiaoyuge</organization>
         </developer>
         <developer>
             <name>xiaoyuge</name>
             <email>yugb666@foxmail.com</email>
-            <organization>Yugb5201314.</organization>
-            <organizationUrl>http://www.sonatype.com</organizationUrl>
         </developer>
     </developers>
     <profiles>
